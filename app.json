@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "GuessOrDie",
-    "slug": "GuessOrDie",
+    "slug": "guessordie",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ipreferlee.guessordie"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5d1b50a8-9339-4678-a9e8-c63c7657044a"
+      }
+    },
+    "owner": "ipreferlee"
   }
 }
